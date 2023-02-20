@@ -106,9 +106,4 @@ public class VendingMachine {
         }
 
     }
-
-    public static void main(String[] args) {
-        VendingMachine testMachine = new VendingMachine(5.00, 3.00, 1.50);
-        System.out.println(testMachine.toString());
-    }
 }
